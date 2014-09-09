@@ -1,0 +1,20 @@
+{
+  "name": "watson-plugin-sourceforge",
+  "version": "0.1.0",
+  "description": "Sourceforge  support for Watson.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "coffee --no-header -co ./out ./src"
+  },
+  "author": "Alexandru G.",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "~1.7.1"
+  },
+  "main": "./out/sourceforge.plugin.js",
+  "dependencies": {
+    "moment": "^2.8.3",
+    "taskgroup": "^4.0.5"
+  },
+  "private": true
+}
